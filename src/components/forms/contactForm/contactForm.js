@@ -52,9 +52,9 @@ const contactSchema = yup.object().shape({
 function FormContent({ onSubmit, setModalState }) {
   const [submissionStatus, setSubmissionStatus] = React.useState(formStates.DEFAULT); // TODO
   const initialValues = {
-    nome: '',
-    email: '',
-    mensagem: '',
+    nome: 'Zweli',
+    email: '1@gmail.com',
+    mensagem: 'we busy',
   };
 
   const form = useForm({
@@ -108,7 +108,7 @@ function FormContent({ onSubmit, setModalState }) {
         tag="p"
         marginBottom="32px"
       >
-        Leave a message and I'll get in touch.
+        Leave a message and I&apos;ll get in touch.
       </Text>
 
       <TextField
@@ -116,7 +116,7 @@ function FormContent({ onSubmit, setModalState }) {
         name="name"
         placeholder="name"
         type="text"
-        value={form.values.nome}
+        // value={form.values.nome}
         onChange={form.handleChange}
         error={form.errors.nome}
         onBlur={form.handleBlur}
@@ -128,7 +128,7 @@ function FormContent({ onSubmit, setModalState }) {
         name="email"
         placeholder="email@domain.com"
         type="email"
-        value={form.values.email}
+        // value={form.values.email}
         onChange={form.handleChange}
         error={form.errors.email}
         onBlur={form.handleBlur}
@@ -140,7 +140,7 @@ function FormContent({ onSubmit, setModalState }) {
         name="Message"
         placeholder="type a message"
         type="text"
-        value={form.values.mensagem}
+        // value={form.values.mensagem}
         onChange={form.handleChange}
         error={form.errors.mensagem}
         onBlur={form.handleBlur}
@@ -153,7 +153,7 @@ function FormContent({ onSubmit, setModalState }) {
         fullWidth
         disabled={form.isFormDisabled}
       >
-        Enviar mensagem
+        Send message
       </Button>
 
       {submissionStatus === formStates.DONE && ( // TODO
@@ -163,7 +163,7 @@ function FormContent({ onSubmit, setModalState }) {
         >
           <img
             src="/images/success.gif"
-            alt="Tudo certo!"
+            alt="It's all right!"
             width="100px"
             height="100px"
           />
@@ -177,7 +177,7 @@ function FormContent({ onSubmit, setModalState }) {
         >
           <img
             src="/images/erro.gif"
-            alt="Ixi, alguma coisa deu errado!"
+            alt="Eish, something went wrong!"
             width="100px"
             height="100px"
           />
