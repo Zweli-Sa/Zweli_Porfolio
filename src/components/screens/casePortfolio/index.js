@@ -32,9 +32,9 @@ function CasePortfolio({ messages }) {
         <Info>
           <Box>
             <Text tag="p" variant="paragraph3" color="fonts.main">Website</Text>
-            <a href="https://carolandrade.dev/" target="_blank" rel="noopener noreferrer" title="Site Portfolio">
+            <a href="https://Zweli-Sa.dev/" target="_blank" rel="noopener noreferrer" title="Site Portfolio">
               <Text tag="p" variant="paragraph2" color="fonts.main">
-                https://carolandrade.dev/
+                https://Zweli-Sa.dev/
               </Text>
             </a>
           </Box>
@@ -79,7 +79,7 @@ function CasePortfolio({ messages }) {
         <img src="/images/fonte.svg" alt="Fonte Sora" />
       </Image>
       <Text tag="p" variant="paragraph2" color="fonts.main" textAlign="justify" lineHeight="1.5" className="finalText">
-        The portfolio began as the first challenge of Alura's Advanced Front End Bootcamp,
+        The portfolio began as the first challenge of Alura&apos;s Advanced Front End Bootcamp,
         but as the stages went through, I decided to deepen and improve the project more and more.
         With this, I met and learned new tools, developed new projects and
         acquired new knowledge.
