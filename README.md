@@ -1,6 +1,6 @@
 <table align="right">
  <tr><td><a href="README_EN.md">English</a></td></tr>
- <tr><td><a href="README.md">Português</a></td></tr>
+
 </table>
 <br>
 
@@ -98,4 +98,4 @@ yarn dev
 
 This project is under [MIT](./LICENSE) license.
 
-Made by [Carol Andrade](https://www.linkedin.com/in/carolandrade1/)
+Made by [Zwei Sangweni](www.linkedin.com/in/Zweli-Sa)
