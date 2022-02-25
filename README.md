@@ -5,14 +5,14 @@
 <br>
 
 <p align='center'>
-<img src="https://img.shields.io/badge/CarolAndrade-portfolio-blue"/>
-<img src="https://img.shields.io/github/license/carolandrade1/carol_BootcampFrontEndAlura"/>
-<img src="https://img.shields.io/website?url=https%3A%2F%2Fcarol-portfolio.vercel.app%2F"/>
+<img src="https://img.shields.io/badge/Zweli--Sa-portfolio-blue"/>
+<img src="https://img.shields.io/badge/License-MIT-green"/>
+<img src="https://img.shields.io/badge/website-up-green"/>
 </p>
 <br>
 
 
-<h1 align='center'><a href="#" target="_blank" rel="noopener noreferrer" title="Veja o Portfolio"><img src="https://i.postimg.cc/FKTg7cLc/PORTFOLIO-4.png" alt="Portfolio" width="800" height=""/></a></h1>
+<h1 align='center'><a href="#" target="_blank" rel="noopener noreferrer" title="Veja o Portfolio"><img src="https://i.postimg.cc/htyYWxyK/PORTFOLIO-Home.png" alt="Portfolio" width="800" height=""/></a></h1>
 
 <p align="center">
  <a href="#-about">About</a> •
@@ -33,7 +33,7 @@
 ## 💻 About
 
 <p align="center">
-<img src="https://i.postimg.cc/MGYnPDGf/PORTFOLIO-Home.png" alt="Portfolio" width="800" height=""/>
+<img src="https://i.postimg.cc/htyYWxyK/PORTFOLIO-Home.png" alt="Portfolio" width="800" height=""/>
 </p>
   
 The project's challenge is to create a Single Page Application, which must be developed using NextJS and the styled-components library.
@@ -51,7 +51,7 @@ The project's challenge is to create a Single Page Application, which must be de
 
 ## 👁‍🗨 CI-CD
 
-For project configuration I used ESLint, Husky and Conventional Commits. All of them were already installed in the base <a href="https://github.com/carolandrade1/template_next_styled" target="_blank" rel="noopener noreferrer">Template with Next e Styled Components</a> that I used to start the project.
+For project configuration I used ESLint, Husky and Conventional Commits.
 
 ---
 
@@ -64,7 +64,7 @@ For project configuration I used ESLint, Husky and Conventional Commits. All of 
 
 1. Clone repository
 ```
-git clone https://github.com/carolandrade1/carol_BootcampFrontEndAlura && cd carol_BootcampFrontEndAlura
+git clone https://github.com/Zweli-Sa/Zweli_Porfolio && cd Zweli_Porfolio
 ```
 
 2. Install dependencies
@@ -79,7 +79,7 @@ yarn dev
 
 4. Go to http://localhost:3000/ and explore the site
 
-<a href="https://github.com/carolandrade1/template_next_styled" target="_blank" rel="noopener noreferrer">Template with Next e Styled Components</a>
+
 
 ---
 
