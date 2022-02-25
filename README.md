@@ -36,7 +36,7 @@
 <img src="https://i.postimg.cc/htyYWxyK/PORTFOLIO-Home.png" alt="Portfolio" width="800" height=""/>
 </p>
   
-The project's challenge is to create a Single Page Application, which must be developed using NextJS and the styled-components library.
+The challenge was to create a Single Page Porfolio Application , which was developed using NextJS and the styled-components library.
 
 ---
 
