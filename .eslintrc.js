@@ -6,8 +6,9 @@ module.exports = {
     'jest/globals': true,
   },
   extends: [
+    'plugin:@next/next/recommended',
     'plugin:react/recommended',
-    'airbnb',
+    //'airbnb',
     'plugin:cypress/recommended',
   ],
   parserOptions: {
