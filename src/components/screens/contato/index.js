@@ -47,7 +47,7 @@ function Contato() {
         <RedesSociais>
           <Text
             tag="a"
-            href="https://www.linkedin.com/in/zweli-sangweni-86216b1b0/"
+            href="https://www.linkedin.com/in/Zweli-Sa"
             variant="paragraph1XS"
             target="_blank"
             rel="noopener noreferrer"
