@@ -8,8 +8,8 @@ function SEO({ headTitle }) {
   const title = hasHeadTitle
     ? (`${headTitle} | ${pageTitleDefault}`)
     : (pageTitleDefault);
-  const url = 'https://carol-portfolio.vercel.app/';
-  const image = 'https://i.postimg.cc/MGYnPDGf/PORTFOLIO-Home.png';
+  const url = 'https://zweli-portfolio.vercel.app/';
+  const image = 'https://i.postimg.cc/htyYWxyK/PORTFOLIO-Home.png';
   const description = 'Check my Portfolio!';
 
   return (
