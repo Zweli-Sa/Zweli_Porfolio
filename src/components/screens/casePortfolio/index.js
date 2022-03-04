@@ -32,7 +32,7 @@ function CasePortfolio({ messages }) {
         <Info>
           <Box>
             <Text tag="p" variant="paragraph3" color="fonts.main">Website</Text>
-            <a href="https://Zweli-Sa.dev/" target="_blank" rel="noopener noreferrer" title="Site Portfolio">
+            <a href="https://zweli-portfolio.vercel.app/" target="_blank" rel="noopener noreferrer" title="Site Portfolio">
               <Text tag="p" variant="paragraph2" color="fonts.main">
               https://zweli-portfolio.vercel.app/
               </Text>
@@ -40,7 +40,7 @@ function CasePortfolio({ messages }) {
           </Box>
           <Box>
             <Text tag="p" variant="paragraph3" color="fonts.main">Date</Text>
-            <Text tag="p" variant="paragraph2">August 2021 - Incomplete</Text>
+            <Text tag="p" variant="paragraph2">March 2022 - Incomplete</Text>
           </Box>
         </Info>
         <LogoImage>
