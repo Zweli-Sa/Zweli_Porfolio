@@ -27,7 +27,7 @@ function Contato() {
           title="Let's talk?"
           ghost
           onClick={() => {
-            setModalState(!isModalOpen); // novo state sendo atribuido
+            setModalState(!isModalOpen); // new state being assigned
           }}
         >
           <Text tag="p" id="contato" variant="titleXS" color="fonts.main">
