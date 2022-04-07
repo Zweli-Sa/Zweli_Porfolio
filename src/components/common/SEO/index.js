@@ -17,7 +17,7 @@ function SEO({ headTitle }) {
       <title>{title}</title>
       <meta name="description" content="Portfolio" />
       <meta name="author" content="Zweli Sangweni" />
-      <meta name="keywords" content="Next.js, React, Portfolio" />
+      <meta name="keywords" content="Zweli Sangweni, Software Developer, Portfolio, Next.js, React" />
       <meta httpEquiv="content-language" content="pt-br, en-US" />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
 

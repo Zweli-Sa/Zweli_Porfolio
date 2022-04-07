@@ -28,12 +28,12 @@ describe('<contatForm />', () => {
       expect(button).toBeDisabled();
 
       const inputNome = screen.getByPlaceholderText(/nome/i);
-      user.type(inputNome, 'Carol');
-      await waitFor(() => expect(inputNome).toHaveValue('Carol'));
+      user.type(inputNome, 'Zweli');
+      await waitFor(() => expect(inputNome).toHaveValue('Zweli'));
 
       const inputEmail = screen.getByPlaceholderText(/email/i);
-      user.type(inputEmail, 'teste@teste.com');
-      await waitFor(() => expect(inputEmail).toHaveValue('teste@teste.com'));
+      user.type(inputEmail, 'test@test.com');
+      await waitFor(() => expect(inputEmail).toHaveValue('test@test.com'));
 
       const inputMensagem = screen.getByPlaceholderText(/mensagem/i);
       user.type(inputMensagem, 'Olá Mundo!');
@@ -59,7 +59,7 @@ describe('<contatForm />', () => {
 
       await waitFor(() => screen.getByRole('alert'));
 
-      expect(screen.getByRole('alert')).toHaveTextContent('Preencha ao menos 3 caracteres');
+      expect(screen.getByRole('alert')).toHaveTextContent('Please fill at least 3 characters');
     });
   });
 });
