@@ -53,8 +53,8 @@ function FormContent({ onSubmit, setModalState }) {
   const [submissionStatus, setSubmissionStatus] = React.useState(formStates.DEFAULT); // TODO
   const initialValues = {
     nome: 'Zweli',
-    email: '1@gmail.com',
-    mensagem: 'we busy',
+    email: 'zwelisangweni25@gmail.com',
+    mensagem: 'Hey there! It`s nice to meet you.',
   };
 
   const form = useForm({
