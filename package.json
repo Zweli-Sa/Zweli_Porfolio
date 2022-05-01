@@ -25,7 +25,7 @@
     "caniuse-lite": "^1.0.30001310",
     "cross-env": "^7.0.3",
     "eslint-plugin-jest": "^24.5.0",
-    "framer-motion": "^4.1.17",
+    "framer-motion": "^6.3.3",
     "graphql": "^15.7.2",
     "graphql-request": "^3.6.1",
     "jest": "^27.3.1",
