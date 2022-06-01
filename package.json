@@ -28,7 +28,7 @@
     "framer-motion": "^4.1.17",
     "graphql": "^15.7.2",
     "graphql-request": "^3.6.1",
-    "jest": "^27.3.1",
+    "jest": "^28.1.0",
     "lodash": "^4.17.21",
     "lodash.get": "^4.4.2",
     "next": "latest",
