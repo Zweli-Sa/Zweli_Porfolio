@@ -25,7 +25,7 @@ function Sobre({ messages }) {
         <Info>
           <Descricao>
             <Text tag="p" variant="paragraph3">
-              Currently a Software engineering student at APTECH specializing in Java. Extremely motivated, constantly developing
+              Currently a Software engineering student at APTECH specializing in Java. I'm also an Equitech Scholar learning Data Science and AI. Extremely motivated, constantly developing
               and looking for the first opportunity.
             </Text>
             <Text tag="p" variant="paragraph3">
