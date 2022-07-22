@@ -152,7 +152,7 @@ function Projetos({ repositorios }) {
                 href={item.html_url}
                 target="_blank"
                 rel="noopener noreferrer"
-                title="Repositorio Github"
+                title="Github repository"
                 className="itemsProjects"
               >
                 <Box
