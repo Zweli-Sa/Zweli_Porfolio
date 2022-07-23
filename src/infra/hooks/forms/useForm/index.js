@@ -49,7 +49,7 @@ function useForm({
         [fieldName]: value,
       }));
     },
-    // validação do form
+    // form validation
     isFormDisabled,
     setIsFormDisabled,
     errors,
@@ -58,7 +58,7 @@ function useForm({
       const fieldName = event.target.getAttribute('name');
       setTouchedFields({
         ...touched,
-        [fieldName]: true, // nome: true, email: true, mensagem: true ...
+        [fieldName]: true, // name: true, email: true, message: true ...
       });
     },
   };
