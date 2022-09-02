@@ -32,12 +32,12 @@ describe('<contatForm />', () => {
       await waitFor(() => expect(inputNome).toHaveValue('Zweli'));
 
       const inputEmail = screen.getByPlaceholderText(/email/i);
-      user.type(inputEmail, 'test@test.com');
-      await waitFor(() => expect(inputEmail).toHaveValue('test@test.com'));
+      user.type(inputEmail, 'zwelisangweni25@gmail.com');
+      await waitFor(() => expect(inputEmail).toHaveValue('zwelisangweni25@gmail.com'));
 
       const inputMensagem = screen.getByPlaceholderText(/mensagem/i);
-      user.type(inputMensagem, 'Olá Mundo!');
-      await waitFor(() => expect(inputMensagem).toHaveValue('Olá Mundo!'));
+      user.type(inputMensagem, 'Hey there! It`s nice to meet you.');
+      await waitFor(() => expect(inputMensagem).toHaveValue('Hey there! It`s nice to meet you.'));
 
       expect(button).not.toBeDisabled();
 
