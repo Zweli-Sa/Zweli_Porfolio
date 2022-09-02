@@ -15,7 +15,7 @@ describe('/contato', () => {
         // Scenario - Act
         contactScreen
           .callModalForm()
-          .fillContactForm({ name: 'Zweli', email: 'teste@teste.com', message: 'Olá Mundo!' })
+          .fillContactForm({ name: 'Zweli', email: 'zwelisangweni25@gmail.com', message: 'Hey there! It`s nice to meet you.' })
           .submitForm();
 
         // Assert
@@ -25,7 +25,7 @@ describe('/contato', () => {
         cy.get('@sendGrid')
           .its('request.body')
           .should('deep.equal', {
-            email: 'test@.zweli-sa.com',
+            email: 'zwelisangweni25@gmail.com',
             message: 'Hello world!',
             name: 'Zweli',
           });
