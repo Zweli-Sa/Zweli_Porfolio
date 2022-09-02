@@ -4,18 +4,18 @@ import ContactScreenPageObject from '../../../src/components/screens/contato/Con
 describe('/contato', () => {
   describe('when click contact button and modal is open', () => {
     describe('fill forms fields correctly', () => {
-      // it === test que estamos fazendo
+      // it === test that we're doing
       it('and submit the message', () => {
-        // Pré teste - Arrange
+        // Pretest - Arrange
         cy.intercept('POST', '/api/sendgrid', (req) => {
           req.reply({ statusCode: 200 });
         }).as('sendGrid');
         const contactScreen = new ContactScreenPageObject(cy);
 
-        // Cenário - Act
+        // Scenario - Act
         contactScreen
           .callModalForm()
-          .fillContactForm({ name: 'Carol', email: 'teste@teste.com', message: 'Olá Mundo!' })
+          .fillContactForm({ name: 'Zweli', email: 'teste@teste.com', message: 'Olá Mundo!' })
           .submitForm();
 
         // Assert
@@ -25,12 +25,12 @@ describe('/contato', () => {
         cy.get('@sendGrid')
           .its('request.body')
           .should('deep.equal', {
-            email: 'teste@teste.com',
-            message: 'Olá Mundo!',
-            name: 'Carol',
+            email: 'test@.zweli-sa.com',
+            message: 'Hello world!',
+            name: 'Zweli',
           });
 
-        cy.get('[alt="Tudo certo!"]')
+        cy.get('[alt="It\'s all right, it\'s all right"]')
           .should('be.visible');
         contactScreen.closeForm();
       });
