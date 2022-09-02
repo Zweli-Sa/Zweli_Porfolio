@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "@sendgrid/mail": "^7.7.0",
-    "@testing-library/user-event": "^13.2.1",
+    "@testing-library/user-event": "^14.4.3",
     "@types/jest": "^27.0.1",
     "caniuse-lite": "^1.0.30001310",
     "cross-env": "^7.0.3",
