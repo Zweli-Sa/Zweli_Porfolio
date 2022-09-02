@@ -26,7 +26,7 @@ describe('/contato', () => {
           .its('request.body')
           .should('deep.equal', {
             email: 'zwelisangweni25@gmail.com',
-            message: 'Hello world!',
+            message: 'Hey there! It`s nice to meet you.',
             name: 'Zweli',
           });
 
