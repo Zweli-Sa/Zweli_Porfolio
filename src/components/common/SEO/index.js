@@ -8,7 +8,7 @@ function SEO({ headTitle }) {
   const title = hasHeadTitle
     ? (`${headTitle} | ${pageTitleDefault}`)
     : (pageTitleDefault);
-  const url = 'https://zweli-portfolio.vercel.app/';
+  const url = 'https://zweli-sa.com/';
   const image = 'https://i.postimg.cc/htyYWxyK/PORTFOLIO-Home.png';
   const description = 'Check my Portfolio!';
 
