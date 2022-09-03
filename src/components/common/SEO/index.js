@@ -18,7 +18,7 @@ function SEO({ headTitle }) {
       <meta name="description" content="Portfolio" />
       <meta name="author" content="Zweli Sangweni" />
       <meta name="keywords" content="Zweli Sangweni, Freelancer in Mbabane Manzini, Software Developer in Mbabane Manzini, Software Developer in Manzini, Portfolio, Next.js, React" />
-      <meta httpEquiv="content-language" content="pt-br, en-US" />
+      <meta httpEquiv="content-language" content="en-US" />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
 
       {/* <!-- Open Graph / Facebook --> */}
