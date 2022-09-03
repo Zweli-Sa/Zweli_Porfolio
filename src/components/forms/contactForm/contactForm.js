@@ -34,7 +34,7 @@ const formStates = { // TODO
 };
 
 const contactSchema = yup.object().shape({
-  nome: yup
+  name: yup
     .string()
     .required('Name is required')
     .min(3, 'Please fill at least 3 characters'),
@@ -43,7 +43,7 @@ const contactSchema = yup.object().shape({
     .email('Email must be valid')
     .required('Email is required')
     .min(10, 'Please fill at least 10 characters'),
-  mensagem: yup
+  message: yup
     .string()
     .required('message is mandatory')
     .min(3, 'Please fill at least 3 characters'),
@@ -62,9 +62,9 @@ function FormContent({ onSubmit, setModalState }) {
     onSubmit: (values) => {
       form.setIsFormDisabled(true);
       messageService.message({
-        name: values.nome,
+        name: values.name,
         email: values.email,
-        message: values.mensagem,
+        message: values.message,
       })
         .then(() => {
           setSubmissionStatus(formStates.DONE);
