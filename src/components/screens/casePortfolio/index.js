@@ -34,7 +34,7 @@ function CasePortfolio({ messages }) {
             <Text tag="p" variant="paragraph3" color="fonts.main">Website</Text>
             <a href="https://zweli-portfolio.vercel.app/" target="_blank" rel="noopener noreferrer" title="Site Portfolio">
               <Text tag="p" variant="paragraph2" color="fonts.main">
-              https://zweli-portfolio.vercel.app/
+              https://zweli-sa.com/
               </Text>
             </a>
           </Box>
