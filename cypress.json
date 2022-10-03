@@ -1,5 +1,6 @@
 {
     "projectId": "9cjvm5",
     "baseUrl": "https://zweli-sa.com/",
-    "video": false
+    "video": false,
+    "defaultCommandTimeout":"6000"
 }
