@@ -9,8 +9,8 @@ async function sendEmail(req, res) {
       to: 'zwelisangweni1@gmail.com', // Your email where you'll receive emails
       from: 'zwelisangweni25@gmail.com', // your website email address here
       subject: `email from: ${req.body.name}`,
-      text: `🙋/🙋‍♂️Name: ${req.body.name}\n ✉️Email: ${req.body.email}\n 📝Message: ${req.body.message}`
-      ,
+      text: `🙋/🙋‍♂️Name: ${req.body.name}\n ✉️Email: ${req.body.email}\n 📝Message: ${req.body.message}`,
+      html: '<strong>and easy to do anywhere, even with Node.js</strong>',
     });
   } catch (error) {
     return res.status(error.statusCode || 500).json({ error: error.message });
