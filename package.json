@@ -22,7 +22,7 @@
     "@sendgrid/mail": "^7.7.0",
     "@testing-library/user-event": "^13.2.1",
     "@types/jest": "^27.0.1",
-    "caniuse-lite": "^1.0.30001310",
+    "caniuse-lite": "^1.0.30001429",
     "cross-env": "^7.0.3",
     "eslint-plugin-jest": "^24.5.0",
     "framer-motion": "^4.1.17",
