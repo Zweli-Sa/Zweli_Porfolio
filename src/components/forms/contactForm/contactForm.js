@@ -60,7 +60,7 @@ function FormContent({ onSubmit, setModalState }) {
   const form = useForm({
     initialValues,
     onSubmit: (values) => {
-      form.setIsFormDisabled(false);
+      form.setIsFormDisabled(true);
       messageService.message({
         name: values.name,
         email: values.email,
@@ -73,7 +73,7 @@ function FormContent({ onSubmit, setModalState }) {
           setSubmissionStatus(formStates.ERROR);
         })
         .finally(() => {
-          form.setIsFormDisabled(true);
+          form.setIsFormDisabled(false);
         });
     },
     async validateSchema(values) {
