@@ -52,9 +52,9 @@ const contactSchema = yup.object().shape({
 function FormContent({ onSubmit, setModalState }) {
   const [submissionStatus, setSubmissionStatus] = React.useState(formStates.DEFAULT); // TODO
   const initialValues = {
-    nome: 'Zweli',
+    name: 'Zweli',
     email: 'zwelisangweni25@gmail.com',
-    mensagem: 'Hey there! It`s nice to meet you.',
+    message: 'Hey there! It`s nice to meet you.',
   };
 
   const form = useForm({
