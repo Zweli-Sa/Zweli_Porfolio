@@ -151,7 +151,7 @@ function FormContent({ onSubmit, setModalState }) {
         variant="paragraph3"
         type="submit"
         fullWidth
-        //disabled={form.isFormDisabled}
+        disabled={form.isFormDisabled}
       >
         Send message
       </Button>
